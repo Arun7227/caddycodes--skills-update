@@ -1,0 +1,63 @@
+
+body,*,*:after,*::before{
+    box-sizing: border-box;
+    
+}
+.nav_bar{
+    background: transparent !important;
+    padding: 0;
+    z-index:10;
+}
+#nav_ul{
+    padding: 0px 15px !important;
+    margin: 0 0px !important;
+}
+#nav_ul li {
+
+    padding: 25px 16px !important;
+    cursor: pointer;
+    
+}
+#nav_ul li .nav-link{
+    color: white;
+    font-weight: bold;  
+    font-size: 14px ;
+    font-style:normal;
+    z-index: 20;
+    text-shadow: .5px .5px 0px black;
+   
+
+}
+
+#nav_ul li a:hover{
+    color:rgb( 13, 110, 253) !important;
+
+}
+.navwhite{
+    background:white !important ;
+}
+.navwhite #nav_ul li .nav-link{
+    color: black !important;
+}
+
+
+@media all and (max-width:992px){
+    #nav_ul li{
+
+        padding: 8px 5px !important;
+    }
+    .nav_bar{
+        background:white !important;
+      
+    }
+    #logo{
+        height:48px;
+        width: 140px;
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .fas{
+        color: black !important;
+    }
+}
